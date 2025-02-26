@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project-desc {
+    @apply left-0 right-0 bottom-0 top-0 bg-indigo-900 opacity-0 duration-500 hover:opacity-100;
+}
+
+html {
+    scroll-behavior: smooth;
+}
